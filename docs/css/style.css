@@ -1,0 +1,75 @@
+﻿#contents {
+    width: 960px;
+    margin: 0 auto;
+}
+
+article {
+    overflow: hidden;
+}
+
+article section {
+    position: relative;
+    float: left;
+}
+
+article h1 {
+    font-size: 48px;
+    color: #fff;
+    background-color: #242424;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.bottom {
+    width: 320px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 280px;
+}
+
+.vartical {
+    width: 320px;
+    writing-mode: vertical-rl;
+}
+
+.vartical h2 {
+    font-size: 36px;
+}
+
+.right_justified {
+    height: 100%;
+    float: right;
+}
+
+p.right_justified {
+    position: absolute;
+    top: 36px;
+    right: 120px;
+}
+
+#imgbox {
+    width: 640px;
+    overflow: hidden;
+}
+
+#imgbox a {
+    display: block;
+    line-height: 0;
+    float: left;
+}
+
+a {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
